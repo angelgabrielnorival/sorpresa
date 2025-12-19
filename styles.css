@@ -1,0 +1,40 @@
+body {
+  background: #ffc0e6;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* CUADRITO ROSADO */
+.card {
+  background: #f872c0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* SORPRESA OCULTA */
+#sorpresa {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FLOR SIMPLE */
+.flor {
+  width: 80px;
+  height: 80px;
+  background: deeppink;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.rosas {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
